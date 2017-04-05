@@ -1,32 +1,15 @@
 # packaged angular-i18n
 
-This repo is for distribution on `npm` and `bower`. The source for this module is in the
-[main AngularJS repo](https://github.com/angular/angular.js).
-Please file issues and pull requests against that repo.
+This is a fork of angular-i18n with better support for South African currency 
 
 ## Install
 
-You can install this package either with `npm` or with `bower`.
-
-### npm
-
-```shell
-npm install angular-i18n
-```
-
-Add a `<script>` to your `index.html`:
-
-```html
-<script src="/node_modules/angular-i18n/angular-locale_YOUR-LOCALE.js"></script>
-```
-
-Note that this package is not in CommonJS format, so doing `require('angular-i18n')` will
-return `undefined`.
+You can install this package either with `bower`.
 
 ### bower
 
 ```shell
-bower install angular-i18n
+bower install https://github.com/joelbasson/bower-angular-i18n.git
 ```
 
 Add a `<script>` to your `index.html`:
